@@ -1,0 +1,2402 @@
+{
+  "LEVELS": [
+    {
+      "level": 0,
+      "skillPresets": [
+        {
+          "value": {
+            "name": "Nucleus",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Taunt_Base",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Smite_Base",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Last_Stand",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Methodical",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nucleus",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Lightning_Stun",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stoneskin",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Arcane",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcane_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Haste",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Blazing",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Nova Archon",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Smite_Archon",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Last_Stand",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Methodical",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Daze",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Lightning_Stun",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stoneskin",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Freezing Rail",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcane_Rail",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Empower_Slowness_Aura",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Frost",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Haste",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Blizzard",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Frost Enjoy",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Frost",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Storm_Arrow_Blizzard",
+                "level": {
+                  "min": 2,
+                  "max": 6,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Ice_Bolt_Blast",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stonefall_Cold",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Blizzard",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Blazing",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Glacial",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Frost",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Ice_Bolt_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Storm_Arrow_Blizzard",
+                "level": {
+                  "min": 2,
+                  "max": 6,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stonefall_Cold",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Frostbite",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Cleave",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stoneskin",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Implode",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Implode",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Mana_Steal",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Depleted",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Shotgun",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Scatter",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Mana_Steal",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Damage",
+                "level": {
+                  "min": 2,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Frugal",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Lucky_Momentum",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Fireball",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Fireball_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Base",
+                "level": {
+                  "min": 2,
+                  "max": 6,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Methodical",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 1,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Fireshot",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Fireball_Fireshot",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nucleus",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 1,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Frozen Pierce",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Piercing",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Frost",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Frostbite",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Depleted",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Throw_Power",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Slaughter",
+            "abilities": [
+              {
+                "id": "Dash_Damage",
+                "level": {
+                  "min": 4,
+                  "max": 7,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Rampage_Base",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Totem_Player_Damage",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Cleave",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Fatal_Strike",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Life_Steal",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Depleted",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Tank",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Totem_Base",
+                "level": {
+                  "min": 1,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Empower_Slowness_Aura",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Shell_Base",
+                "level": {
+                  "min": 1,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stonefall_Base",
+                "level": {
+                  "min": 2,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Last_Stand",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Methodical",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stoneskin",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Daze",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Conducting Pierce",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Piercing",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Javelin_Conduct",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Frugal",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Damage",
+                "level": {
+                  "min": 2,
+                  "max": 6,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Throw_Power",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Depleted",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Super Mario",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stonefall_Snow",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Mega_Jump_Base",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Last_Stand",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stoneskin",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Toxic",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Dot",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Totem_Mana_Regen ",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 1,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Toxic_Reaction",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Blight",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Nova_Dot",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcane_Base",
+                "level": {
+                  "min": 1,
+                  "max": 6,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 1,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Blight",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Pacifist",
+            "abilities": [
+              {
+                "id": "Dash_Warp",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Empower_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Stonefall_Base",
+                "level": {
+                  "min": 2,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Hunter_Base  ",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Ghost_Walk_Base",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Ice_Bolt_Base",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Stoneskin",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 2,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Sorcery",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Dazer",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Shell_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Totem_Player_Damage",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Mana_Shield_Base",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Daze",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Cleave",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Fatal_Strike",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Mana_Steal",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Retribution",
+            "abilities": [
+              {
+                "id": "Dash_Damage",
+                "level": {
+                  "min": 4,
+                  "max": 7,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Shield_Bash",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Totem_Base  ",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Battle_Cry_Base",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Smite_Base",
+                "level": {
+                  "min": 2,
+                  "max": 6,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Last_Stand",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Archon",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Smite_Archon",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Totem_Mana_Regen  ",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Intelligence",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Arcana",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Prime_Amplification",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Daze",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Lightning_Stun",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        },
+        {
+          "value": {
+            "name": "Purist",
+            "abilities": [
+              {
+                "id": "Dash_Base",
+                "level": {
+                  "min": 1,
+                  "max": 3,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Vein_Miner_Base",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Base",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "talents": [
+              {
+                "id": "Purist",
+                "level": {
+                  "min": 2,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Strength",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Frenzy",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Speed",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Haste",
+                "level": {
+                  "min": 1,
+                  "max": 2,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Lucky_Momentum",
+                "level": {
+                  "min": 1,
+                  "max": 4,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Cleave",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Fatal_Strike",
+                "level": {
+                  "min": 1,
+                  "max": 1,
+                  "type": "uniform"
+                }
+              },
+              {
+                "id": "Javelin_Damage",
+                "level": {
+                  "min": 4,
+                  "max": 8,
+                  "type": "uniform"
+                }
+              }
+            ],
+            "description": {
+              "description": [
+                {
+                  "text": "Default config description for ",
+                  "color": "$text"
+                },
+                {
+                  "text": "royale_preset",
+                  "color": "$name"
+                },
+                {
+                  "text": " - please configure me!",
+                  "color": "$text"
+                }
+              ]
+            }
+          },
+          "weight": 1.0
+        }
+      ],
+      "blueTrinketPresets": [],
+      "redTrinketPresets": []
+    }
+  ],
+  "skillPresetSize": 5,
+  "blueTrinketPresetSize": 5,
+  "redTrinketPresetSize": 5
+}

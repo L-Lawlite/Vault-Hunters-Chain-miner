@@ -1,0 +1,651 @@
+{
+  "ETCHINGS": {
+    "the_vault:etching_blocking_mana": {
+      "name": "etching_blocking_mana",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_blocking_mana",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_blocking_mana",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_chaining_penalty": {
+      "name": "etching_chaining_penalty",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_chaining_penalty",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_chaining_penalty",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_frost_nova_freeze": {
+      "name": "etching_frost_nova_freeze",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_frost_nova_freeze",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_frost_nova_freeze",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_glacial_shatter_explosion": {
+      "name": "etching_glacial_shatter_explosion",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_glacial_shatter_explosion",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_glacial_shatter_explosion",
+          "tags": [],
+          "tiers": [
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 100,
+              "value": {
+                "percentAD": {
+                  "min": 0.0,
+                  "max": 0.0,
+                  "step": 0.1
+                },
+                "radius": {
+                  "min": 0.0,
+                  "max": 0.0,
+                  "step": 0.1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "the_vault:etching_heal_cleanse": {
+      "name": "etching_heal_cleanse",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_heal_cleanse",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_heal_cleanse",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_ice_bolt_chunk_damage": {
+      "name": "etching_ice_bolt_chunk_damage",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_ice_bolt_chunk_damage",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_ice_bolt_chunk_damage",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_ice_bolt_effect": {
+      "name": "etching_ice_bolt_effect",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_ice_bolt_effect",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_ice_bolt_effect",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_ice_bolt_lucky": {
+      "name": "etching_ice_bolt_lucky",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_ice_bolt_lucky",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_ice_bolt_lucky",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_ice_bolt_multicast": {
+      "name": "etching_ice_bolt_multicast",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_ice_bolt_multicast",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_ice_bolt_multicast",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_ice_bolt_pierce": {
+      "name": "etching_ice_bolt_pierce",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_ice_bolt_pierce",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_ice_bolt_pierce",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_implode_mana_regen": {
+      "name": "etching_implode_mana_regen",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_implode_mana_regen",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_implode_mana_regen",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_lucky_cooldown_reset": {
+      "name": "etching_lucky_cooldown_reset",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_lucky_cooldown_reset",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_lucky_cooldown_reset",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_lucky_frost_nova": {
+      "name": "etching_lucky_frost_nova",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_lucky_frost_nova",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_lucky_frost_nova",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_lucky_low_health": {
+      "name": "etching_lucky_low_health",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_lucky_low_health",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_lucky_low_health",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_smite_stun": {
+      "name": "etching_smite_stun",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_smite_stun",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_smite_stun",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_smite_echo": {
+      "name": "etching_smite_echo",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_smite_echo",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_smite_echo",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_nova_recast": {
+      "name": "etching_nova_recast",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_nova_recast",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_nova_recast",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_shield_bash_damage": {
+      "name": "etching_shield_bash_damage",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_shield_bash_damage",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_shield_bash_damage",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_piercing_javelin": {
+      "name": "etching_piercing_javelin",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_piercing_javelin",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_piercing_javelin",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_piercing_javelin_ricochet": {
+      "name": "etching_piercing_javelin_ricochet",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_piercing_javelin_ricochet",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_piercing_javelin_ricochet",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_poison_mana": {
+      "name": "etching_poison_mana",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_poison_mana",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_poison_mana",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_scatter_mana": {
+      "name": "etching_scatter_mana",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_scatter_mana",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_scatter_mana",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_storm_arrow_blizzard_damage": {
+      "name": "etching_storm_arrow_blizzard_damage",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_storm_arrow_blizzard_damage",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_storm_arrow_blizzard_damage",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_nova_low_mana_damage": {
+      "name": "etching_nova_low_mana_damage",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_nova_low_mana_damage",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_nova_low_mana_damage",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_stone_fall_stun": {
+      "name": "etching_stone_fall_stun",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_stone_fall_stun",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_stone_fall_stun",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_totem_mob_damage_ad": {
+      "name": "etching_totem_mob_damage_ad",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_totem_mob_damage_ad",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_totem_mob_damage_ad",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_totem_player_damage_ap": {
+      "name": "etching_totem_player_damage_ap",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_totem_player_damage_ap",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_totem_player_damage_ap",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_mana_shield_nova": {
+      "name": "etching_mana_shield_nova",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_mana_shield_nova",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_mana_shield_nova",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_rampage_lucky_hit": {
+      "name": "etching_rampage_lucky_hit",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_rampage_lucky_hit",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_rampage_lucky_hit",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_dash_warp_nova": {
+      "name": "etching_dash_warp_nova",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_dash_warp_nova",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_dash_warp_nova",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_storm_arrow_blizzard_effect": {
+      "name": "etching_storm_arrow_blizzard_effect",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_storm_arrow_blizzard_effect",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_storm_arrow_blizzard_effect",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_spirit_walk_ability": {
+      "name": "etching_spirit_walk_ability",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_spirit_walk_ability",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_spirit_walk_ability",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_lucky_vulnerable": {
+      "name": "etching_lucky_vulnerable",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_lucky_vulnerable",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_lucky_vulnerable",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_totem_player_damage_effect": {
+      "name": "etching_totem_player_damage_effect",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_totem_player_damage_effect",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_totem_player_damage_effect",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_lucky_vortex": {
+      "name": "etching_lucky_vortex",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_lucky_vortex",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_lucky_vortex",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    },
+    "the_vault:etching_dash_warp": {
+      "name": "etching_dash_warp",
+      "description": "",
+      "color": 16777215,
+      "typeGroups": [
+        "Offensive"
+      ],
+      "attributes": [
+        {
+          "attribute": "the_vault:etching_dash_warp",
+          "group": "EtchingGroup",
+          "identifier": "the_vault:etching_dash_warp",
+          "tags": [],
+          "tiers": []
+        }
+      ]
+    }
+  },
+  "groups": {
+    "Defensive": [
+      "HELMET",
+      "CHESTPLATE",
+      "LEGGINGS",
+      "BOOTS"
+    ],
+    "Offensive": [
+      "SWORD",
+      "AXE"
+    ],
+    "Utility": [
+      "FOCUS",
+      "WAND",
+      "SHIELD"
+    ]
+  }
+}

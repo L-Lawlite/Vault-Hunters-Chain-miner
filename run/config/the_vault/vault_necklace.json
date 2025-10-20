@@ -1,0 +1,10 @@
+{
+  "usesRoll": {
+    "min": 7,
+    "max": 8,
+    "type": "uniform"
+  },
+  "models": [
+    "the_vault:gear/necklace/default"
+  ]
+}

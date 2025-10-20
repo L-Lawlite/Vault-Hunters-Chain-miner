@@ -1,0 +1,9 @@
+{
+  "presets": [
+    {
+      "value": "the_vault:royale_crate",
+      "weight": 2.0
+    }
+  ],
+  "numberOfSelections": 3
+}

@@ -1,0 +1,20 @@
+{
+  "abilities": [
+    {
+      "value": "Heal_Base",
+      "weight": 1
+    }
+  ],
+  "talents": [
+    {
+      "value": "Last_Stand",
+      "weight": 1
+    }
+  ],
+  "modifiers": [
+    {
+      "value": "the_vault:speedy",
+      "weight": 1
+    }
+  ]
+}

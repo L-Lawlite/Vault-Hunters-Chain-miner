@@ -1,8 +1,7 @@
-package com.example.examplemod;
+package net.lawliet.chain_miner;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,13 +17,15 @@ import org.slf4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("examplemod")
-public class ExampleMod
+@Mod(ChainMiner.MODID)
+public class ChainMiner
 {
+    public static final String MODID = "chain_miner";
+
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ExampleMod()
+    public ChainMiner()
     {
         // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -39,15 +40,12 @@ public class ExampleMod
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
     {
         // Some example code to dispatch IMC to another mod
-        InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+        InterModComms.sendTo(MODID, "helloworld", () -> { LOGGER.info("Hello world from the {}", MODID); return MODID + "loaded";});
     }
 
     private void processIMC(final InterModProcessEvent event)
@@ -63,7 +61,7 @@ public class ExampleMod
     public void onServerStarting(ServerStartingEvent event)
     {
         // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+//        LOGGER.info("HELLO from server starting");
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
@@ -75,7 +73,7 @@ public class ExampleMod
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent)
         {
             // Register a new block here
-            LOGGER.info("HELLO from Register Block");
+//            LOGGER.info("HELLO from Register Block");
         }
     }
 }

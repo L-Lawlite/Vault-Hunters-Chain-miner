@@ -1,0 +1,215 @@
+{
+  "pools": {
+    "the_vault:coin_cascade": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "modifiers": [
+                "coin_cascade"
+              ],
+              "model": {
+                "count": 1,
+                "type": "constant"
+              }
+            },
+            "weight": 1.0
+          },
+          {
+            "value": {
+              "modifiers": [
+                "coin_cascade",
+                "random_negative"
+              ],
+              "model": {
+                "count": 1,
+                "type": "constant"
+              }
+            },
+            "weight": 1.0
+          }
+        ]
+      }
+    ],
+    "the_vault:wooden_cascade": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "modifiers": [
+                "wooden_cascade"
+              ],
+              "model": {
+                "count": 2,
+                "type": "constant"
+              }
+            },
+            "weight": 1.0
+          },
+          {
+            "value": {
+              "modifiers": [
+                "wooden_cascade",
+                "random_negative"
+              ],
+              "model": {
+                "count": 2,
+                "type": "constant"
+              }
+            },
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "relicChances": {
+    "the_vault:wooden_chest": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:gilded_chest": {
+      "COMMON": 0.20000000298023224,
+      "RARE": 0.20000000298023224,
+      "EPIC": 0.20000000298023224,
+      "OMEGA": 0.20000000298023224
+    },
+    "the_vault:living_chest": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:ornate_chest": {
+      "COMMON": 0.5,
+      "RARE": 0.5,
+      "EPIC": 0.5,
+      "OMEGA": 0.5
+    },
+    "the_vault:ornate_strongbox": {
+      "COMMON": 0.5,
+      "RARE": 0.5,
+      "EPIC": 0.5,
+      "OMEGA": 0.5
+    },
+    "the_vault:gilded_strongbox": {
+      "COMMON": 0.20000000298023224,
+      "RARE": 0.20000000298023224,
+      "EPIC": 0.20000000298023224,
+      "OMEGA": 0.20000000298023224
+    },
+    "the_vault:living_strongbox": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:ornate_barrel": {
+      "COMMON": 0.5,
+      "RARE": 0.5,
+      "EPIC": 0.5,
+      "OMEGA": 0.5
+    },
+    "the_vault:gilded_barrel": {
+      "COMMON": 0.20000000298023224,
+      "RARE": 0.20000000298023224,
+      "EPIC": 0.20000000298023224,
+      "OMEGA": 0.20000000298023224
+    },
+    "the_vault:living_barrel": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:wooden_barrel": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    }
+  },
+  "particleChances": {
+    "the_vault:wooden_chest": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:gilded_chest": {
+      "COMMON": 0.20000000298023224,
+      "RARE": 0.20000000298023224,
+      "EPIC": 0.20000000298023224,
+      "OMEGA": 0.20000000298023224
+    },
+    "the_vault:living_chest": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:ornate_chest": {
+      "COMMON": 0.5,
+      "RARE": 0.5,
+      "EPIC": 0.5,
+      "OMEGA": 0.5
+    },
+    "the_vault:ornate_strongbox": {
+      "COMMON": 0.5,
+      "RARE": 0.5,
+      "EPIC": 0.5,
+      "OMEGA": 0.5
+    },
+    "the_vault:gilded_strongbox": {
+      "COMMON": 0.20000000298023224,
+      "RARE": 0.20000000298023224,
+      "EPIC": 0.20000000298023224,
+      "OMEGA": 0.20000000298023224
+    },
+    "the_vault:living_strongbox": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:ornate_barrel": {
+      "COMMON": 0.5,
+      "RARE": 0.5,
+      "EPIC": 0.5,
+      "OMEGA": 0.5
+    },
+    "the_vault:gilded_barrel": {
+      "COMMON": 0.20000000298023224,
+      "RARE": 0.20000000298023224,
+      "EPIC": 0.20000000298023224,
+      "OMEGA": 0.20000000298023224
+    },
+    "the_vault:living_barrel": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "the_vault:wooden_barrel": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    }
+  },
+  "lootMinLevel": 50,
+  "lootPoolWeights": [
+    {
+      "value": "the_vault:wooden_cascade",
+      "weight": 1.0
+    },
+    {
+      "value": "the_vault:coin_cascade",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "levelBlacklist": {
+    "50": [
+      "the_vault:vault/rooms/challenge/raid1"
+    ]
+  }
+}

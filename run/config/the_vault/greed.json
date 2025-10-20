@@ -1,0 +1,35 @@
+{
+  "pools": {
+    "the_vault:default": [
+      {
+        "children": [],
+        "operating": false,
+        "level": 0,
+        "amount": {
+          "count": 8,
+          "type": "constant"
+        },
+        "tasks": [
+          {
+            "children": [],
+            "operating": false,
+            "level": 0,
+            "tasks": [],
+            "rewards": [],
+            "type": "greed",
+            "weight": 1.0
+          }
+        ],
+        "rewards": [
+          {
+            "id": "diamond",
+            "count": 1,
+            "level": 0,
+            "weight": 4.0
+          }
+        ],
+        "type": "greed"
+      }
+    ]
+  }
+}
